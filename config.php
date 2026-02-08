@@ -13,7 +13,7 @@ mysqli_select_db($conn, "php_login_database");
 $table = "CREATE TABLE IF NOT EXISTS users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100),
-    email VARCHAR(100) UNIQUE,
+    email VARCHAR(100),
     password VARCHAR(255)
 );";
 
